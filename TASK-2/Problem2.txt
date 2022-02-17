@@ -1,0 +1,14 @@
+This program allows the user to print Nth fibonacci number.
+
+Main Function
+Declare variables a,b,n and,element
+OUTPUT "Enter the value of n that need to be displayed"
+INPUT n
+Set a to 0, b to 1 and, element to 0
+WHILE n is greater than 0
+   Add a and b, store it in element
+   Assign b to a and, a to element
+   Decrement n by 1
+   ENDWHILE
+OUTPUT element
+END
