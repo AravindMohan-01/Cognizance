@@ -1,13 +1,13 @@
 This program will allows the user to find whether the given number is divisible by 3 or not 
 
-Main Function
-Declare variables Num,IntRemainder as Integer
-Declare variable RealRemainder as Real
+BEGIN
+Declare variables num,intremainder as Integer
+Declare variable realremainder as Real
 OUTPUT "Enter the number to be checked"
-INPUT Num
-Assign IntRemainder equal to Num divide by 3      #Value will be stored as integer number
-Assign RealRemainder equal to Num divide by 3     #Value will be stored as real number
-IF IntRemainder is equal to RealRemainder then    #When the number is divisble by a number then the quotient will be a whole number 
+INPUT num
+Assign intremainder equal to num divide by 3      #Value will be stored as integer number
+Assign realremainder equal to num divide by 3     #Value will be stored as real number
+IF intremainder is equal to realremainder then    #When the number is divisble by a number then the quotient will be a whole number 
    OUTPUT "True"
    ENDIF
 ELSE
