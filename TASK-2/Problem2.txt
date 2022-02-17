@@ -6,9 +6,9 @@ OUTPUT "Enter the value of n that need to be displayed"
 INPUT n
 Set a to 0, b to 1 and, element to 0
 WHILE n is greater than 0
-   Add a and b, store it in element
-   Assign b to a and, a to element
+   Add a and b, store it in element   #element will be the numbers in the Fibonacci Series
+   Assign b to a and, a to element    #Moving forward to next element
    Decrement n by 1
    ENDWHILE
-OUTPUT element
+OUTPUT element                        #The required element of the Fibonacci Series will be displayed
 END
