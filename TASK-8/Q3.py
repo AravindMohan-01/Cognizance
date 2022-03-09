@@ -1,0 +1,11 @@
+import numpy as np
+print("Result for print(0 * np.nan)")
+print(0 * np.nan,"\n")
+print("Result for print(np.nan != np.nan)")
+print(np.nan != np.nan,"\n")
+print("Result for print(np.inf > np.nan)")
+print(np.inf > np.nan,"\n")
+print("Result for print(np.nan - np.nan)")
+print(np.nan - np.nan,"\n")
+print("Result for print(0.3 == 3 * 0.1)")
+print(0.3 == 3 * 0.1)
